@@ -1,10 +1,10 @@
 # IMDb Trivia API
 
-This repository contains a Node.js script that allows to scrape trivia data from IMDb and optionally translate it to Portuguese (or any other language if changed). It is designed to be deployed as an API on Vercel.
+This repository contains a Node.js script that scrapes trivia data from IMDb and optionally translate it to Portuguese (or any other language if changed). It is designed to be deployed as an API on Vercel.
 
 ## Features
 
-- Scrapes trivia data from IMDb for a given Movie or TV Show and get a JSON structured response.
+- Scrapes trivia data from IMDb for a given Movie or TV Show and transforms it into a JSON structured response.
 - Optionally translates the trivia data to Portuguese (or any other language if changed).
 
 ## Usage
