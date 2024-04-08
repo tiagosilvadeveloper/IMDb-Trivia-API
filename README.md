@@ -20,6 +20,8 @@ Once deployed, you can use the following endpoints:
 `{https://myapi.vercel.com}/{imdbId}?translated=true`
 > (e.g. [https://imdb-trivia-api.vercel.app/tt0816692?translated=true](https://imdb-trivia-api.vercel.app/tt0816692?translated=true))
 
+Replace `{https://myapi.vercel.com}` and `{imdbId}` with your desired parameters.
+
 ## Configuration
 
 In the `translator.js` file, you can change the [ISO 639-1 language code](https://en.wikipedia.org/wiki/List_of_ISO_639_language_codes) to which the trivia data is translated by modifying the `to` property in the options passed to the `translate` function. By default, it is set to translate to Portuguese (`to: 'pt'`). 
